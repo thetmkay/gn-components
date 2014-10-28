@@ -1,0 +1,23 @@
+{
+  "name": "gn_components",
+  "version": "1.0.0",
+  "description": "shared components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thetmkay/gn-components.git"
+  },
+  "keywords": [
+    "components",
+    "gn"
+  ],
+  "author": "George Nishimura <thetmkay@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thetmkay/gn-components/issues"
+  },
+  "homepage": "https://github.com/thetmkay/gn-components"
+}
