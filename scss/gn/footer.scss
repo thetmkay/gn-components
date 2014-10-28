@@ -1,0 +1,58 @@
+.footer {
+	width: 100%;
+	background-color: #eee;
+	font-family: 'Open Sans';
+	border-top: solid 2px lighten($green, 10);
+}
+
+.ftr-section {
+	width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 600px;
+	text-align: center;
+}
+
+.ftr-section.ack {
+	max-width: 400px;
+}
+
+.ftr-section.links {
+	margin-top: 40px;
+}
+
+
+.ftr-title {
+	font-size: 10px;
+	width: 100%;
+	font-weight: 200;
+	margin-bottom: 1em;
+
+	.ack & {
+		text-align: left;
+		font-size: 12px;
+	}
+}
+
+.ftr-link-mod {
+	font-size: 14px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.ftr-link {
+	font-weight: 200;
+}
+
+.ftr-link:hover {
+	font-weight: 600;
+}
+
+.ftr-link.border-right {
+	border-right: solid 1px #aaa;
+	padding-right: 20px;
+}
+
+.ack .ftr-link {
+	font-weight: bold;
+}

@@ -1,0 +1,24 @@
+<div class="footer">
+    {% if acknowledgements | length %}
+    <div class="ftr-section ack">
+        <div class="ftr-title">This page makes use of:</div>
+        {% for ack in acknowledgements %}
+        <div class="ftr-link-mod"><a href="{{ack.link}}" class="ftr-link">{{ack.name}}</a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    <div class="ftr-section links">
+        <div class="ftr-link-mod"><a href="#" class="ftr-link border-right ">home</a>
+        </div>
+        <div class="ftr-link-mod"><a href="#" class="ftr-link border-right">work</a>
+        </div>
+        <div class="ftr-link-mod"><a href="#" class="ftr-link border-right">blog</a>
+        </div>
+        <div class="ftr-link-mod"><a href="#" class="ftr-link">resume</a>
+        </div>
+    </div>
+    <div class="ftr-section">
+        <div class="ftr-title">Developed by George Nishimura. Copyright 2014. All rights reserved.</div>
+    </div>
+</div>

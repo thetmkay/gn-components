@@ -1,0 +1,28 @@
+.mtc-sticker {
+	text-align: center;
+	padding: 3em;
+	color: #aaa;
+	background-color: white;
+}
+
+.mtc-link {
+	margin-top: 2em;
+	font-weight: bold;
+	display: block;
+	position: relative;
+	height: 2em;
+
+	&, &:active, &:visited {
+		color: #aaa;
+	}
+	&:hover {
+		color: #999;
+
+		&:after {
+			display: block;
+			content: attr(data-hover);
+			// position: absolute;
+			font-size: 8px;
+		}
+	}
+}
