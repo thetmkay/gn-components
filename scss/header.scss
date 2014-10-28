@@ -1,0 +1,23 @@
+.header {
+	width: 100%;
+	padding: 0.5em 0;
+	// height: 3em;
+	background-color: white;
+}
+
+.nav-link {
+	font-family: Open Sans;
+	font-weight: bold;
+}
+
+.nav-item {
+	display: inline-block;
+	width: 22.5%;
+}
+
+.nav-list {
+	list-style-type: none;
+	text-align: center;
+	padding: 0 5%;
+	margin: 0;
+}
