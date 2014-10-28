@@ -63,3 +63,9 @@ $nav-collapse-width: 480px;
         margin: 0;
     }
 }
+
+@media print {
+	.header {
+		display: none;
+	}
+}

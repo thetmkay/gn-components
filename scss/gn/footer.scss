@@ -55,3 +55,9 @@
 .ack .ftr-link {
 	font-weight: bold;
 }
+
+@media print {
+	.footer {
+		display: none;
+	}
+}
